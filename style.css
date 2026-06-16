@@ -1,0 +1,250 @@
+/* GENERAL */
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #333333;
+    background-color: #eef2f7;
+}
+
+/* MENU */
+
+#menu{
+    background-color: #011a4e;
+    height: 60px;
+}
+
+#menu ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+#menu li{
+    display: inline-block;
+}
+
+#menu a{
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 60px;
+    color: #ffffff;
+    padding: 0 25px;
+    display: block;
+    transition: 0.3s;
+}
+
+#menu a:hover{
+    background-color: #f97316;
+}
+
+/* HEADER */
+
+#header{
+    padding: 40px 0;
+    background: linear-gradient(135deg, #e8f1ff, #ffffff);
+    text-align: center;
+}
+
+#header h1{
+    margin: 0;
+    font-size: 44px;
+    color: #011a4e;
+}
+
+#header p{
+    margin: 10px 0 0;
+    color: #6b7280;
+    font-size: 18px;
+}
+
+/* BANNER */
+
+#banner img{
+    width: 100%;
+    display: block;
+}
+
+/* PAGE */
+
+#page{
+    min-height: 600px;
+    padding: 30px;
+    overflow: auto;
+    background-color: #ffffff;
+}
+
+/* CONTENT */
+
+#content{
+    float: left;
+    width: 70%;
+}
+
+#content h2{
+    color: #011a4e;
+}
+
+#content h3{
+    color: #f97316;
+}
+
+#content img{
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* SIDEBAR */
+
+#sidebar{
+    float: right;
+    width: 25%;
+}
+
+#sidebar h2{
+    color: #011a4e;
+}
+
+/* STYLED LISTS */
+
+ul.styled{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul.styled li{
+    border-bottom: 1px solid #dddddd;
+    padding: 10px 0;
+}
+
+ul.styled a{
+    text-decoration: none;
+    color: #011a4e;
+}
+
+ul.styled a:hover{
+    color: #f97316;
+}
+
+/* FORMS */
+
+input[type=text],
+input[type=email],
+textarea{
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+textarea{
+    height: 120px;
+}
+
+input[type=submit]{
+    background-color: #f97316;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+input[type=submit]:hover{
+    background-color: #ea580c;
+}
+
+/* FOOTER */
+
+#footer{
+    clear: both;
+    background-color: #111827;
+    color: white;
+    overflow: auto;
+    padding: 30px;
+}
+
+#box1,
+#box2,
+#box3{
+    float: left;
+    width: 30%;
+    margin-right: 3%;
+}
+
+#footer h2{
+    color: white;
+}
+
+#footer ul.styled a{
+    color: #ffffff;
+}
+
+#footer ul.styled a:hover{
+    color: #f97316;
+}
+
+#footer img{
+    margin-right: 10px;
+}
+
+/* COPYRIGHT */
+
+#copyright{
+    clear: both;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 20px;
+    border-top: 1px solid #374151;
+}
+
+#copyright p{
+    margin: 0;
+    color: #d1d5db;
+}
+
+/* VEHICLE IMAGES */
+
+.vehicle-image{
+    width: 300px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* MOBILE FRIENDLY */
+
+@media screen and (max-width: 768px){
+
+    #content,
+    #sidebar,
+    #box1,
+    #box2,
+    #box3{
+        width: 100%;
+        float: none;
+        margin-bottom: 20px;
+    }
+
+    #menu li{
+        display: block;
+    }
+
+    #menu{
+        height: auto;
+    }
+
+    #menu a{
+        line-height: 40px;
+    }
+}
